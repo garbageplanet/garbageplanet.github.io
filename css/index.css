@@ -1,0 +1,103 @@
+body {padding-top: 50px;}
+
+.navbar-default { background-color: #fff;
+}
+
+h3  { text-align: left;
+      font-family: 'Work Sans', sans-serif;
+      font-weight: 400;
+}
+
+h1  { text-align: right;
+      font-family: 'Work Sans', sans-serif;
+      font-weight: 300;
+      font-size: 5vw;
+      
+}
+
+z
+
+.banner-shading { height: 400px;
+                  width: 80%;
+                  height: 100%;
+                  background-color: rgba(0,0,0,0.4);
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+}
+
+.banner-text { color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+}
+
+.banner { background-image: url("../images/1900px_cropped.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+  -webkit-background-size: cover;
+	   -o-background-size: cover;
+          width: 100%;  
+}
+
+.banner-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../css/logo_w.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 1200px) {
+    .banner-logo { left: 2vw; width: 20vw; height:20vw; }
+    h1 { font-size: 5vw; }
+    .banner { height: 400px;}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .banner-logo { left: 2vw; width: 20vw; height: 20vw; }
+    .h1 { font-size: 6vw; }
+    .banner { height: 275px;}
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .banner {background-image: url("../images/768px_cropped.jpg");
+}
+
+@media screen and (max-width: 768px) {
+    .banner-logo { left: 2vw; width: 20vw; height: 20vw; }
+    .snippet-fa {font-size: 3vw;}
+    h1 { font-size: 5vw; }
+    .banner { height: 250px;}
+}
+
+@media screen and (max-width: 640px) {
+    .snippet-fa {font-size: 8vw;}
+    h1 { font-size: 6vw; }
+    .banner {height: 250px;}
+    .banner-logo { left: 2vw; width: 6vw; height: 6vw; }
+}
+
+@media screen and (max-width: 480px) {
+    .snippet-fa {font-size: 8vw;}
+    h1 { font-size: 8vw; }
+    h3 { font-size: 6vw; }
+    .banner {height: 250px;}
+}
+
+@media screen and (max-width: 320px)  {
+    .snippet-fa {font-size: 8vw;}
+    h1 { font-size: 8vw; }
+    h3 { font-size: 6vw; }
+    .banner {height: 200px;}
+}
+
+@media screen and (max-width: 768px) {
+    .collapsed-menu-fifth { display: inline-block !important;
+                            width: 18%;
+                            text-align: center;
+    }
+    
+}
