@@ -1,488 +1,100 @@
 <!DOCTYPE html>
 <html lang="multi">
 <head>
-    <title>The Roska Project - Earth, spotless.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    
+    <title>Garbagepla.net - Earth, spotless.</title>
+
     <meta name="copyright" content="&copy; #garbageplanet"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.3/css/bootstrap-select.css">
-    <link rel="icon" type="image/png" href="css/favicon.png">
-    <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100" rel="stylesheet" type="text/css"> 
-    
+    <link rel="icon" type="image/png" href="favicon.ico">
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.3/js/bootstrap-select.min.js"></script>
-    
     <link rel="stylesheet" href="css/bootstrap3-ms-class.css">
     <link rel="stylesheet" href="css/index.css">
-    <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,500,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <a href="http://demo.garbagepla.net"><img src="images/ribbon.png" style="z-index: 5000 ;position: fixed; top: 0; left: 0; border: 0;" alt="Platform demo"></a>
-<div class="container">
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-              <button type="button" 
-                      class="navbar-toggle collapsed" 
-                      data-toggle="collapse" 
-                      data-target="#navbar-collapse-a">
-                <span class="fa fa-bars fa-fw"></span>
-              </button>
-                <a href="http://www.garbagepla.net" target="_self">
-                    <span class="navbar-brand lang" href="#">Garbagepla.net</span>
-                </a>
-            </div>
-        <div class="collapse navbar-collapse" id="navbar-collapse-a">
-          <ul class="nav navbar-nav">
-                                <li class="collapsed-menu-fifth">
-                                    <a  href="https://www.facebook.com/garbageplanet" 
-                                        target="_blank">
-                                    <span class="fa fa-facebook"></span>
-                                    </a>
-                                </li>
-                                <li class="collapsed-menu-fifth">
-                                    <a href="https://twitter.com/garbageplanet_" 
-                                       target="_blank"> 
-                                    <span class="fa fa-twitter"></span>
-                                    </a>
-                                </li>
-                                <li class="collapsed-menu-fifth">
-                                    <a href="https://www.instagram.com/garbageplanet/" 
-                                       target="_blank">    
-                                    <span class="fa fa-instagram"></span>
-                                    </a>
-                                </li>
-                                <li class="collapsed-menu-fifth">
-                                    <a href="https://plus.google.com/communities/113995626012569006306" 
-                                       target="_blank">    
-                                    <span class="fa fa-google-plus"></span>
-                                    </a>
-                                </li>
-                                <li class="collapsed-menu-fifth">
-                                    <a href="https://github.com/garbageplanet" 
-                                       target="_blank">    
-                                    <span class="fa fa-github"></span>
-                                    </a>
-                                </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right navbar-form">
-                    <li class="dropdown form-group">
-                         <select id="selectLanguages" class="selectpicker input-form">
-                                    <option value="0" >English</option>
-                                    <option value="3" >Français</option>
-                                    <option value="9" >Română</option>
-                                    <option value="1" >Suomi</option>
-                                    <option value="2" >Svenska</option>
-                                    <option disabled="disabled" value="4" >Русский</option>
-                                    <option disabled="disabled" value="5" >Deutsch</option>
-                                    <option disabled="disabled" value="6" >Español</option>
-                                    <option disabled="disabled" value="7" >Portugês</option>
-                                    <option disabled="disabled" value="8" >Nederlands</option>
-                                    <option disabled="disabled" value="10" >日本語</option>
-                                    <option disabled="disabled" value="11" >中文</option>                        
-                        </select>
-                    </li>
-            </ul>
-            </div>
-        </div>
-    </nav>
-        </div><!-- menu -->
-<div class="container-fluid banner">
-            <div class="container banner-shading">
-                <div class="row">
-                <div class="banner-logo col-md-2 col-lg-2 col-sm-2 pull-left hidden-xs"></div>
-                <div class="banner-text col-md-8 col-lg-8 col-sm-8 pull-right">
-                    <h1 class="lang lang-en visible">Keeping tabs on environmental trash and pollution.</h1>
-                    <h1 class="lang lang-fi hidden">Merkitään roska ja muut saasteet maailmankartalle.</h1>
-                    <h1 class="lang lang-sv hidden">Hålla ett öga på skräp och föroreningar i miljön.</h1>
-                    <h1 class="lang lang-fr hidden">Déchets et pollution environmentale en ligne de mire.</h1>
-                    <h1 class="lang lang-de hidden">Umwelt Müll und Verschmutzung im Visier.</h1>
-                    <h1 class="lang lang-es hidden">Keeping tabs on environmental trash and pollution.</h1>
-                    <h1 class="lang lang-pt hidden">Keeping tabs on environmental trash and pollution.</h1>
-                    <h1 class="lang lang-nl hidden">Keeping tabs on environmental trash and pollution.</h1>
-                    <h1 class="lang lang-ro hidden">Monitorizeaza gunoiul si poluarea.</h1>
-                    <h1 class="lang lang-jp hidden">Keeping tabs on environmental trash and pollution.</h1>
-                    <h1 class="lang lang-cn hidden">Keeping tabs on environmental trash and pollution.</h1>
-                    <h1 class="lang lang-ru hidden">Keeping tabs on environmental trash and pollution.</h1>
-                </div></div>
-            </div>
-</div>
+
+  <div class="container">
+      <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+              <div class="navbar-header">
+                  <div class="pull-right">
+                      <ul class="nav navbar-nav">
+                          <li class="collapsed-menu-fifth"><a  href="https://www.facebook.com/garbageplanet" target="_blank"><span class="fa fa-facebook"></span></a></li>
+                          <li class="collapsed-menu-fifth"><a href="https://twitter.com/garbageplanet_" target="_blank"><span class="fa fa-twitter"></span></a></li>
+                          <li class="collapsed-menu-fifth"><a href="https://www.instagram.com/garbageplanet/" target="_blank"><span class="fa fa-instagram"></span></a></li>
+                          <li class="collapsed-menu-fifth"><a href="https://plus.google.com/communities/113995626012569006306" target="_blank"><span class="fa fa-google-plus"></span></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </nav>
+  </div><!-- menu -->
+
+  <div class="container-fluid banner">
+      <div class="container banner-shading">
+          <div class="row">
+              <div class="banner-logo center-block"></div>
+              <div class="banner-text center-block">
+                  <h1>Garbagepla.net</h1>
+              </div>
+
+              <div class="banner-text center-block">
+                  <h2>An online platform to keep tabs on environmental trash and pollution.</h2>
+              </div>
+
+              <div class="col-sm-12 col-xl-6 col-lg-6 col-md-6">
+                  <a class="btn btn-large btn-block btn-orange center-block" href="https://www.garbagepla.net" target="_self" role="button">Use it now <span class="fa fa-fw fa-arrow-right"></span></a>
+              </div>
+
+              <div class="col-sm-12 col-xl-6 col-lg-6 col-md-6">
+                  <a class="btn btn-large btn-block btn-violet center-block" href="https://github.com/garbageplanet" target="_self" role="button">See the code <span class="fa fa-fw fa-github"></span></a>
+              </div>
+          </div>
+      </div>
+      <div class="more"><i class="fa fa-3x fa-fw fa-chevron-down"></i></div>
+  </div>
     
-	<div class="container">  
-        <div class="container center-block lang lang-en">  
-        <div class="row">
-                <div class="col-md-6 col-xs-12">
-                    <h3 class="text-uppercase">
-                        <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-map-marker">
-                        </span>Put pollution on the map</h3>
-                    <p class="lead">If you have been outdoors, chances are you've stumbled upon trash stashes pretty much everywhere, even in the most remote and pristine places. Accumulation of garbage and other types of pollution in nature is not only harmful to us but to all the living organisms that rely upon a clean environment for survival.
-                    </p>
-                </div>
-                <div class="col-md-6 col-xs-12">
-                    <h3 class="text-uppercase">
-                        <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-book style">
-                        </span>For environmental education</h3>
-                    <p class="lead">An idea that has emerged early in the development of the project is to use the platform as a way to educate the users with concepts of environmental sustainability. This will be implemented as a software overlay to the map interface. More details will be revealed as the project goes forward.
-                    </p>
-                </div>      
-        </div>
-        <div class="row">
-                <div class="col-md-6 col-xs-12">
-                    <h3 class="text-uppercase">
-                        <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-users">
-                        </span>Get involved</h3>
-                    <p class="lead">We need to get our hands dirty together or we are going to crumble under our own wastes. The platform allows you to create cleaning events and shoutout to users on all the favourite social networking platforms. The platform will also allow associations and schools to create their own accounts to keep track of their actions.
-                    </p>
-                </div> 
-                <div class="col-md-6 col-xs-12">
-                    <h3 class="text-uppercase">
-                        <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-heart">
-                        </span>A project of significance</h3>
-                    <p class="lead">The project has received positive feedback as a tool for community service and its usefulness has been recognized by many startup events goers. We are proud to develop a free service which contributes towards the sustainability of our societies and above all - we think about the future!
-                    </p>
-                </div> 
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-xs-12">
-                    <h3 class="text-uppercase">
-                        <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-mobile">
-                        </span>Access on any device</h3>
-                    <p class="lead">The project will be compatible with all devices as a responsive webpage. We use data from OpenStreetmap to locate recycling centers and trash bins around the location of users. We are also working with strategic partners to allow access to our API through simple devices with GPS and GPRS.
-                    </p>
-                </div>
-                <div class="col-md-6 col-xs-12">
-                    <h3 class="text-uppercase">
-                        <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-lightbulb-o">
-                        </span>Share your ideas</h3>
-                    <p class="lead">Every contribution is welcome. Whether you have thought of a feature which would make the <a href="https://github.com/garbageplanet" target="_blank">software</a> more useable or want to express you gratitude or simply encourage us. You can follow us on <a href="https://www.facebook.com/garbageplanet" target="_blank">Facebook</a>, <a href="https://twitter.com/garbageplanet_" target="_blank">Twitter</a> or <a href="https://plus.google.com/communities/113995626012569006306" target="blank">Google+</a> and shoutout with the tag <strong>#garbageplanet</strong>.                      
-                    </p>
-                </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-xs-12">
-                    <h3 class="text-uppercase">
-                        <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-database">
-                        </span>Data never forget</h3>
-                    <p class="lead">Having a public platform to identify locations on the planet that are particularly touched by pollution and garbage means a wealth of data which can be used to coordinate cleaning efforts. Ultimately, the project intends to implicate big players such as governments and private industries to tackle the problem. Publicly available data also means that whenever illegal pollution is discovered in real time, the platform can be used as a way to hold polluters accountable.
-                    </p>
-                </div>
-                <div class="col-md-6 col-xs-12">
-                    <h3 class="text-uppercase">
-                        <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-spinner">
-                        </span>Work in progress</h3>
-                    <p class="lead">Garbagepla.net was born as the Roska Project in May 2015 and is still at an early stage, you can currently access a <a href="http://demo.garbagepla.net" target="_blank">demo</a> of the platform. As an open source project, we are happy to accept your contributions on github very soon.                     
-                    </p>
-                </div>
-            </div>
-        </div> 
-
-        <div class="container center-block lang lang-sv hidden">  
-        <div class="row">
-                <div class="col-md-6 col-xs-12">
-                    <h3 class="text-uppercase">
-                        <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-map-marker">
-                        </span>Fäst föroreningarna på kartan</h3>
-                    <p class="lead">När du rör dig utomhus, märker du lätt att det finns skräp nästan överallt, även på de mest orörda, natursköna platser. Ackumuleringen av skräp och andra föreoreningar i miljön är skadligt för oss alla och dessutom för alla levande organismer som är beroende av en ren miljö för att överleva.
-                    </p>
-                </div>
-                <div class="col-md-6 col-xs-12">
-                    <h3 class="text-uppercase">
-                        <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-book style">
-                        </span>För miljöutbildning</h3>
-                    <p class="lead">Redan när projektet planerades dök det upp en idé om att använda plattformen/portalen? till att utbilda användarna om begrepp som berör miljömässig hållbarhet. Detta kommer att tillämpas genom ett datorprogram i samband med kartgränssnittet. Flera detaljer kommer att avslöjas under projektets gång. 
-                    </p>
-                </div>      
-        </div>
-        <div class="row">
-                <div class="col-md-6 col-xs-12">
-                    <h3 class="text-uppercase">
-                        <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-users">
-                        </span>Kom med</h3>
-                    <p class="lead">Vi måste engagera oss tillsammans eller förgås i våra egna avfall. Genom Garbagepla.net kan du sätta upp rengörings-evenemang och fästa uppmärksamhet på meddelanden i alla sociala nätverksplattformer. Sammanslutningar och skolor kan skapa egna konton för att hålla koll på sin verksamhet.
-                    </p>
-                </div> 
-                <div class="col-md-6 col-xs-12">
-                    <h3 class="text-uppercase">
-                        <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-heart">
-                        </span>Ett betydande projekt</h3>
-                    <p class="lead">Garbagepla.net har fått positiv feedback för att främja samhällstjänster och flera besökare på start-up evenemang har givit projektet erkännande. Vi är stolta över att utveckla en gratis tjänst som bidrar till ett miljömässig hållbart samhälle och framför allt – vi tänker på vår framtid!
-                    </p>
-                </div> 
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-xs-12">
-                    <h3 class="text-uppercase">
-                        <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-mobile">
-                        </span>Tillträde via all manicker</h3>
-                    <p class="lead">Projektet kommer att vara kompatibel med alla manicker i form av en mottaglig hemsida på nätet. Vi använder data från OpenStreetmap för att lokalisera återvinningscentraler och skräpkorgar i närheten av användarna. Vi jobbar även med strategiska samarbetspartners för att få tillträde till API genom enkla medel som GPS och GPRS.
-                    </p>
-                </div>
-                <div class="col-md-6 col-xs-12">
-                    <h3 class="text-uppercase">
-                        <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-lightbulb-o">
-                        </span>Dela dina ideer</h3>
-                    <p class="lead">Varje bidrag är välkommet. Oberoende om du har en idé om att förbättra denna <a href="https://github.com/garbageplanet" target="_blank">programvara</a> eller om du vill uttrycka din tacksamhet eller endast uppmuntra oss. Du hittar oss på <a href="https://www.facebook.com/garbageplanet" target="_blank">Facebook</a>, <a href="https://twitter.com/garbageplanet_" target="_blank">Twitter</a> eller <a href="https://plus.google.com/communities/113995626012569006306" target="blank">Google+</a> och fästa uppmärksamhet genom märka meddelanden med <strong>#garbageplanet</strong>.                      
-                    </p>
-                </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-xs-12">
-                    <h3 class="text-uppercase">
-                        <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-database">
-                        </span>Data glömmer inte</h3>
-                    <p class="lead">Genom att ha en allmän plattform för att identifiera speciellt förorenade eller skräpiga platser får vi mänger av data som kan användas till att koordinera reningsprojekt. I sista hand försöker projektet påverka stora hajar som till exempel regeringar och den privata industrin till att angripa problemet. Allmänt tillgängligt data betyder också att illegala utsläpp upptäckts i realtid, plattformen kan användas till att hålla förorenare ansvariga. 
-                    </p>
-                </div>
-                <div class="col-md-6 col-xs-12">
-                    <h3 class="text-uppercase">
-                        <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-spinner">
-                        </span>Pågående arbete</h3>
-                    <p class="lead">Projektet sattes upp i maj 2015 och är ännu i barnsben. Om du vill veta mera om när plattformen är tillgänglig, följ oss på <a href="https://www.facebook.com/garbageplanet" target="_blank">Facebook</a>.        
-                    </p>
-                </div>
-            </div>
-        </div> 
-		
-        <div class="container center-block lang lang-fi hidden">  
-            <div class="row">
-                    <div class="col-md-6 col-xs-12">
-                        <h3 class="text-uppercase">
-                            <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-map-marker">
-                            </span>Merkkaa roskat kartalla</h3>
-                        <p class="lead">Jos ulkoilet, törmäät todennäköisesti aika ajoin roskaläjiin vähän siellä sun täällä, jopa kaukaisimmilla, koskemattomimmilla korpimailla. Roskan ja muun saasteen kertyminen ympäristöön ei ole haitallista ainoastaan meille ihmisille, vaan kaikille eliöille, jotka tarvitsevat puhdasta luontoa selviytyäkseen.
-                        </p>
-                    </div>
-                    <div class="col-md-6 col-xs-12">
-                        <h3 class="text-uppercase">
-                            <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-book style">
-                            </span>Ympäristökasvatusta varten</h3>
-                        <p class="lead">Projektin varhaisessa vaiheessa päätettiin kehittää alusta välineeksi ympäristöoppimisen välineeksi. Tämä toteutetaan luomalla ohjelmisto karttaohjelman oheen. Lisää yksityiskohtia paljastetaan projektin edetessä.
-                        </p>
-                    </div>      
-            </div>
-            <div class="row">
-                    <div class="col-md-6 col-xs-12">
-                        <h3 class="text-uppercase">
-                            <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-users">
-                            </span>Osallistu</h3>
-                        <p class="lead">Meidän täytyy seistä rinnakkain kädet savessa, jotta emme uppoaisi roskiimme. Roskan avulla voit luoda siivoustapahtumia ja vinkata muille käyttäjille haluamasi sosiaalisen median kautta. Some-alustan avulla myös yhteisöt ja koulut voivat luoda oman käyttäjätilinsä seuratakseen toimintaansa.
-                        </p>
-                    </div> 
-                    <div class="col-md-6 col-xs-12">
-                        <h3 class="text-uppercase">
-                            <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-heart">
-                            </span>Merkittävä projekti</h3>
-                        <p class="lead">Roskaprojekti on saanut positiivista palautetta, sillä se on yhteisen hyvän tekemiseen tarkoitettu työkalu. Se on saanut tunnustusta startup-tapahtumissa. Olemme ylpeitä saadessamme kehittää ilmaista palvelua, joka edesauttaa kestävää kehitystä. Ja ennen kaikkea: ajattelemme huomista.
-                        </p>
-                    </div> 
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-xs-12">
-                        <h3 class="text-uppercase">
-                            <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-mobile">
-                            </span>Saavutettavissa kaikilla laitteilla</h3>
-                        <p class="lead">Projekti on yhteensopiva kaikkien laitteiden kanssa, sillä se toimii dynaamisen verkkosivun kautta. Käytämme OpenStreetmappia tunnistaaksemme käyttäjää lähellä olevat kierrätyskeskukset ja roskikset. Keskustelemme myös strategisten yhteistyökumppanien kanssa saadaksemme Roska APIn yksinkertaisten GPS:ää ja GPRS:ää käyttävien laitteiden käyttöön.
-
-                        </p>
-                    </div>
-                    <div class="col-md-6 col-xs-12">
-                        <h3 class="text-uppercase">
-                            <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-lightbulb-o">
-                            </span>Jaa ajatuksesi</h3>
-                        <p class="lead">Kaikenlainen apu on tervetullutta. Olipa mielessäsi ominaisuus, joka tekisi <a href="https://github.com/garbageplanet" target="_blank">sovelluksesta</a> jouhevamman käyttää, tai ainoastaan rohkaista tai ilmaista tukesi projektin onnistumiselle, haluamme kuulla sinusta. Voit seurata meitä <a href="https://www.facebook.com/garbageplanet" target="_blank">Facebookissa</a>, <a href="https://twitter.com/garbageplanet_" target="_blank">Twitterissä</a> tai <a href="https://plus.google.com/communities/113995626012569006306" target="blank">Google+</a> ja tägätä juttusi <strong>#garbageplanet</strong>.                      
-                        </p>
-                    </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-xs-12">
-                        <h3 class="text-uppercase">
-                            <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-database">
-                            </span>Data ei unohda</h3>
-                        <p class="lead">Julkinen alusta, jonka avulla voidaan tunnistaa erityisen roskaantuneet ja saastuneet kohteet johtaa valtavaan datamäärään, jota voidaan käyttää koordinoitaessa siivous- ja puhdistustoimia. Projektin lopullisena tarkoituksena on saada liikkeelle isot tahot, kuten hallinto ja yksityisyritykset. Koska data on julkisesti jaettua, voidaan laittomasti pilaantuneet kohteet löytää reaaliaikaisesti, jolloin ympäristöä pilaava taho saadaan vastuuseen.
-                        </p>
-                    </div>
-                    <div class="col-md-6 col-xs-12">
-                        <h3 class="text-uppercase">
-                            <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-spinner">
-                            </span>Kehitys jatkuu</h3>
-                        <p class="lead">Roska-projekti näki päivänvalon toukokuussa 2015 ja on vielä lapsenkengissään. Jos tahdot olla ensimmäisten joukossa kun sovellus on saatavilla, seurataksesi meitä <a href="https://www.facebook.com/garbageplanet" target="_blank">Facebookissa</a>.                     
-                        </p>
-                    </div>
-                </div>
-            </div>
-        
-        <div class="container center-block lang lang-fr hidden">  
-            <div class="row">
-                    <div class="col-md-6 col-xs-12">
-                        <h3 class="text-uppercase">
-                            <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-map-marker">
-                            </span>Signaler la pollution sur les cartes</h3>
-                        <p class="lead">Si vous êtes souvent dans la nature, vous avez certainement pu observer qu'il y a des déchets presque partout, même dans les endroits les plus reculés. L'accumuluation de déchets dans la nature nuit non seulement aux humains mais aussi à tous les êtres vivants qui nécessistent un environment propre pour leur survie.
-                        </p>
-                    </div>
-                    <div class="col-md-6 col-xs-12">
-                        <h3 class="text-uppercase">
-                            <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-book style">
-                            </span>Pour l'éducation environmentale</h3>
-                        <p class="lead">L'idée d'utiliser la platforme Roska comme un moyen d'apprendre aux utilisateurs certains conceptes de développement durable a vite pris forme après la fondation du projet. Le côté éducatif de la platforme se composera d'une addition logicielle au système de cartes de Roska. Plus de détails seront révélés au fur et à mesure que la dévelopement de Roska avance.
-                        </p>
-                    </div>      
-            </div>
-            <div class="row">
-                    <div class="col-md-6 col-xs-12">
-                        <h3 class="text-uppercase">
-                            <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-users">
-                            </span>Impliquez-vous</h3>
-                        <p class="lead">Nous devons tous mettre la main à la pâte si l'on veut éviter que la planète croûle sous nos déchets. Grâce à Roska, vous pouvez organiser des évènements de collection des déchets en milieux naturels et solliciter l'aide d'utilisateurs à travers vos réseaux sociaux préférés. La plateforme Roska permettra aussi aux associations et aux écoles de créer des comptes personnalisés afin de pouvoir garder la trace de leur activités.
-
-                        </p>
-                    </div> 
-                    <div class="col-md-6 col-xs-12">
-                        <h3 class="text-uppercase">
-                            <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-heart">
-                            </span>Un projet apprécié</h3>
-                        <p class="lead">Le projet Roska a recut un feedback très positif lors d'évènements pour les stratups en tant que service à la communauté. Nous sommes fiers d'offrir un service libre et gratuit qui contribue au développement durable de nos sociétés mais avant tout - nous pensons au future!
-                        </p>
-                    </div> 
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-xs-12">
-                        <h3 class="text-uppercase">
-                            <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-mobile">
-                            </span>Accès sur tous vos appareils</h3>
-                        <p class="lead">Le projet Roska vous permet de marquer la position géographique de déchets dans la nature de manière anonyme. Cette platforme est accessible au travers de tous les navigateurs web et tous vos appareils. Nous travaillons aussi avec nos partenaires pour offrir la possibilité de marquer des déchets au travers de notre API avec des systèmes de navigation GPS et GRS sans accès web.
-                        </p>
-                    </div>
-                    <div class="col-md-6 col-xs-12">
-                        <h3 class="text-uppercase">
-                            <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-lightbulb-o">
-                            </span>Partagez vos idées</h3>
-                        <p class="lead">Toutes les contributions sont bienvenues. Que vous aillez pensé à une fonctionalité qui rendrait le <a href="https://github.com/garbageplanet" target="_blank">logiciel</a> plus fonctionnel, que vous souhaitiez exprimer votre gratitude ou simplement nous encourager, écrivez-nous! Vous pouvez nous suivre sur <a href="https://www.facebook.com/garbageplanet" target="_blank">Facebook</a> ou encore <a href="https://twitter.com/garbageplanet_" target="_blank">Twitter</a>, <a href="https://plus.google.com/communities/113995626012569006306" target="blank">Google+</a> et rejoindre la conversation avec le tag <strong>#garbageplanet</strong>.                      
-                        </p>
-                    </div> 
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-xs-12">
-                        <h3 class="text-uppercase">
-                            <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-database">
-                            </span>Les données n'oublient jamais</h3>
-                        <p class="lead">Les bases de données platforme, qui permettent d'identifier des endroits particulièrement touchés par la pollution et les déchets, rendent possible la coordination des efforts de nettoyage et de sensibilisation. À long terme, le projet compte amener des partenaires importants, comme les gouvernements et de grandes entreprises privées à la table des discussions afin de trouver des solutions ensemble. Toutes les données de Roska seront accessible gratuitement et publiquement, rendant ainsi possible de tenir les pollueurs responsables lorsque des abus environnementaux et de la pollution sont observés en temps réel.
-                        </p>
-                    </div>
-                    <div class="col-md-6 col-xs-12">
-                        <h3 class="text-uppercase">
-                            <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-spinner">
-                            </span>En cours de développement</h3>
-                        <p class="lead">Le projet est né au mois de Mai 2015 et est en pleine croissance. Si vous voulez être tenu au courant lorsque la platforme est accessible, suivez-nous sur <a href="https://www.facebook.com/garbageplanet" target="_blank">Facebook</a>. Pour le moment, une version de démonstration est accessible en cliquant <a href="http://demo.garbagepla.net" target="_blank">ici</a>.                     
-                        </p>
-                    </div>
-                </div>
-            </div> 
-            <div class="container center-block lang lang-ro hidden">  
-                <div class="row">
-                        <div class="col-md-6 col-xs-12">
-                            <h3 class="text-uppercase">
-                                <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-map-marker">
-                                </span>Pune poluarea pe harta</h3>
-                            <p class="lead">Daca ai iesit in natura de curand, probabil ca ai observat gunoi, pana si in cele mai isolate si pure locuri. Acumularea gunoilui in natura nu este daunatoare numai noua oamenilor, ci tuturor organismelor care au nevoie de un mediu curat pentru a supravietui.
-                            </p>
-                        </div>
-                        <div class="col-md-6 col-xs-12">
-                            <h3 class="text-uppercase">
-                                <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-book style">
-                                </span>Pentru educatia de mediu</h3>
-                            <p class="lead">O idee nascuta la inceputul proiectului este sa utilizam aceasta platforma pentru a educa utilizatorii in legatura cu diverse concepte ale sustenabilitatii mediului. Aceasta idee va fi implementata ca un alt component al interfetei hartii. Va vom dezvalui mai multe detalii pe masura ce proiectul evolueaza. 
-                            </p>
-                        </div>      
-                </div>
-                <div class="row">
-                        <div class="col-md-6 col-xs-12">
-                            <h3 class="text-uppercase">
-                                <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-users">
-                                </span>Implica-te</h3>
-                            <p class="lead">Trebuie sa ne punem pe treaba, altfel riscam sa fim acoperiti de gunoi. Proiectul va va ajuta sa organizati evenimente de curatare si sa luati legatura cu alti utilizatori de pe platformele sociale cele mai populare. Proiectul Roska va oferi posibilitatea diferitelor comunitati si asociatii sa isi monitorizeze propriile actiuni. 
-
-                            </p>
-                        </div> 
-                        <div class="col-md-6 col-xs-12">
-                            <h3 class="text-uppercase">
-                                <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-heart">
-                                </span>Un proiect cu importanta</h3>
-                            <p class="lead">Proiectul a primit semne pozitive. Multi utilizatori gasesc platforma pentru serviciu comunitar de folos. Ne bucuram sa dezvoltam un serviciu gratuit care ne ajuta sa comunitatile sa devina mai verzi si mai sustenabile. Mai presus de orice, incercam sa construim un viitor mai bun. 
-                            </p>
-                        </div> 
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-xs-12">
-                            <h3 class="text-uppercase">
-                                <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-mobile">
-                                </span>Access de pe orice dispozitiv</h3>
-                            <p class="lead">Proiectul va fi compatibil cu orice tip de dispozitiv. Folosim date din Openstreetmap pentru a localiza centre de reciclare si gunoi aproape de locul unde se afla utilizatorii. Lucram cu parteneri strategici pentru a facilita accesul la API prin intermediul dispozitivelor simple de tip GPS si GPRS. 
-                            </p>
-                        </div>
-                        <div class="col-md-6 col-xs-12">
-                            <h3 class="text-uppercase">
-                                <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-lightbulb-o">
-                                </span>Impartaseste-ti ideile </h3>
-                            <p class="lead">Fiecare contributie e bine venita, fie ca e vorba de sugestii pentru noi functii ale <a href="https://github.com/garbageplanet" target="_blank">platformei</a> sau incurajari. Luati legatura cu noi prin intermediul <a href="https://www.facebook.com/garbageplanet" target="_blank">Facebook</a>, <a href="https://twitter.com/garbageplanet_" target="_blank">Twitter</a> sau <a href="https://plus.google.com/communities/113995626012569006306" target="blank">Google+</a> si folositi <strong>#garbageplanet</strong>.                      
-                            </p>
-                        </div> 
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-xs-12">
-                            <h3 class="text-uppercase">
-                                <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-database">
-                                </span>Date care nu vor fi uitate </h3>
-                            <p class="lead">O platforma care poate sa identifice locatiile care sunt afectate de poluare si gunoi reprezinta un bun inceput pentru eventuale eforturi de curatare a acestor locuri. Pe masura ce proiectul evolueaza, vrem sa implicam si agentii guvernamentale si companii care sa contribuie la rezolvarea problemei. Informatiile si datele publice ne pot ajuta sa tragem la raspundere pe cei vinovati.
-                            </p>
-                        </div>
-                        <div class="col-md-6 col-xs-12">
-                            <h3 class="text-uppercase">
-                                <span style="vertical-align: middle" class="snippet-fa fa fa-fw fa-spinner">
-                                </span>Proiect in lucru</h3>
-                            <p class="lead">Proeictul a luat nastere in mai 2015. De-abia am inceput. Daca vrei sa te anuntam cand lansam platforma, urmareste-ne pe <a href="https://www.facebook.com/garbageplanet" target="_blank">Facebook</a>.                    
-                            </p>
-                        </div>
-                    </div>
-                </div> 
-   </div>   
-
-<script type='text/javascript'>
-$('#selectLanguages').change(function() { 
-    var selectedValue = parseInt(jQuery(this).val());
-        switch(selectedValue){
-            case 0:
-                switchLangEn();
-                break;
-            case 1:
-                switchLangFi();
-                break;
-            case 3:
-                switchLangFr();
-                break;
-            case 9:
-                switchLangRo();
-                break;
-            case 2:
-                switchLangSv();
-                break;
-        /* make the rest of the function when the translations are available*/
-                default:
-                alert("Error: language not yet available");
-                break;
-        }
-});
-function switchLangEn(){$(".lang").addClass('hidden'); $(".lang-en").removeClass('hidden')};
-function switchLangFi(){$(".lang").addClass('hidden'); $(".lang-fi").removeClass('hidden')};
-function switchLangFr(){$(".lang").addClass('hidden'); $(".lang-fr").removeClass('hidden')};
-function switchLangRo(){$(".lang").addClass('hidden'); $(".lang-ro").removeClass('hidden')};
-function switchLangSv(){$(".lang").addClass('hidden'); $(".lang-sv").removeClass('hidden')};
-</script>
-
+    
+  <div class="container">  
+      <div class="container center-block">  
+          <div class="row content-row">
+              <div class="col-md-6 col-xs-12">
+                  <h3 class="text-uppercase">
+                  <span class="snippet-fa fa fa-fw fa-map-marker">
+                  </span>Put pollution on the map</h3>
+                  <p class="lead">Garbage is accumulating in nature at an alarming rate everywhere, even in the most remote and pristine places. Accumulation of garbage and other types of pollution in nature is not only harmful to us but to all the living organisms that rely upon a clean environment for survival.</p>
+              </div>
+              <div class="col-md-6 col-xs-12">
+                  <h3 class="text-uppercase">
+                  <span class="snippet-fa fa fa-fw fa-book style">
+                  </span>For environmental actions</h3>
+                  <p class="lead">The platform will be developed as a springboard for donating and crowfunding environmental and cleaning actions via an area system. This could allow schools and associations to generate revenues through meaningful actions.</p>
+              </div>      
+          </div>
+          <div class="row">
+              <div class="col-md-6 col-xs-12">
+                  <h3 class="text-uppercase">
+                  <span class="snippet-fa fa fa-fw fa-mobile">
+                  </span>Access on any device</h3>
+                  <p class="lead">The platform is compatible with all devices as a responsive webpage. We are also aiming at developing strategic partnerships to build embedded apps that allow marking and synchronizing marker mapped from wearables.</p>
+              </div>
+              <div class="col-md-6 col-xs-12">
+                  <h3 class="text-uppercase">
+                  <span class="snippet-fa fa fa-fw fa-lightbulb-o">
+                  </span>Share your ideas</h3>
+                  <p class="lead">Every contribution is welcome. Whether you have thought of a feature which would make the <a href="https://github.com/garbageplanet" target="_blank">software</a> more useable or you just want to encourage us. You can follow us on <a href="https://www.facebook.com/garbageplanet" target="_blank">Facebook</a>, <a href="https://twitter.com/garbageplanet_" target="_blank">Twitter</a> or <a href="https://plus.google.com/communities/113995626012569006306" target="blank">Google+</a> and shoutout with the tag <strong>#garbageplanet</strong>.</p>
+              </div>
+          </div>
+      </div> 
+  </div>
+  
 </body>
 </html>

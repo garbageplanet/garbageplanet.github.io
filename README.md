@@ -1,2 +1,2 @@
-# homepage
-the about page of garbagepla.net
+## homepage
+the about page of [garbagepla.net](http://home.garbagepla.net)
