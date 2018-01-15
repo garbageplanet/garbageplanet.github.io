@@ -80,14 +80,14 @@ li a {
     color: #FFF;
 }
 
-.btn-gree {
+.btn-green {
     background-color: #00cc66;
     border-color: #00cc66;
     font-size: 20px;
     color: #FFF;
 }
 
-.btn-gree:hover, .btn-green:active  {
+.btn-green:hover, .btn-green:active  {
     background-color: #00994d;
     border-color: #00994d;
     color: #FFF;
